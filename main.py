@@ -7,6 +7,8 @@ if not os.path.exists(path):
 cont = True
 fileNumA = 1
 fileNumB = 1
+fileNumC = 1
+fileNumD = 1
 count = 0
 text = "Peen"
 
@@ -31,8 +33,33 @@ def pcNomore():
     while cont == True:
         file = path + '/LBOZO' + str(fileNumB) + '.txt'
         with open(file, 'a') as fp:
+            file_list.remove(file)
             fileNumB = fileNumB + 1
-            for x in range(1000000):
+            for x in range(10000000):
+                fp.write(text)
+def pcNomore2():
+    global file
+    global fileNumB
+    global file_list
+    global count
+    while cont == True:
+        file = path + '/LBOZO' + str(fileNumB) + '.txt'
+        with open(file, 'a') as fp:
+            file_list.remove(file)
+            fileNumC = fileNumC + 1
+            for x in range(10000000):
+                fp.write(text)
+def pcNomore3():
+    global file
+    global fileNumB
+    global file_list
+    global count
+    while cont == True:
+        file = path + '/LBOZO' + str(fileNumB) + '.txt'
+        with open(file, 'a') as fp:
+            file_list.remove(file)
+            fileNumD = fileNumD + 1
+            for x in range(10000000):
                 fp.write(text)
 
 

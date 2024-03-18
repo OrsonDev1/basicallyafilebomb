@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea81b049-0098-45e5-a880-c5d7f3d7742c" name="Changes" comment="H-Bomb">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
       <workItem from="1710522932711" duration="133000" />
       <workItem from="1710523083093" duration="1322000" />
       <workItem from="1710535664772" duration="479000" />
+      <workItem from="1710765406217" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="big bomb">
       <option name="closed" value="true" />
